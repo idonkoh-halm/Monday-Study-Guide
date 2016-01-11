@@ -15,8 +15,8 @@ import traceback, inspect, random, math
 
 # Store the sum of 12345 and 54321 in the variable 'bignum'
 colors=['black','yellow','goldenrod','red']
-nmonts=12
-bignum=12345+54321
+nmonths=12
+bignum=int(12345+54321)
 
 ######################################################
 ######################################################
@@ -26,10 +26,10 @@ bignum=12345+54321
 ######################################################
 ######################################################
 
-def isHinkle (first, last):
+def isHinkle (first,last):
     '''Return True if person is a Hinkle'''
     # Fix the bug in this code
-    if last==Hinkle:
+    if last=="Hinkle":
         return True
     else:
         return False
@@ -57,9 +57,24 @@ def factorial (n):
 # Write a function titled 'addTwoDigits' that takes two arguments and returns
 # the sum of them.
 
-
+def addTwoDigits(dig1,dig2):
+    sumof=dig1+dig2
+    return sumof
 
 # Write a function titled isOdd that returns True if a number is odd.
+
+
+#def isOdd(number):
+#    evenum=number-1
+#    checker=float(number)/2
+#    checker2=checker-0.5
+#    checker3=float(evenum)/2
+#    checker4=checker2-checker3
+#    if checker4==0:
+#        return True
+#    else:
+#        return False
+
 
 
 # Write a function titled isPrime that returns True if a number is prime
