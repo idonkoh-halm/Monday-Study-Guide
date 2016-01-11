@@ -64,16 +64,11 @@ def addTwoDigits(dig1,dig2):
 # Write a function titled isOdd that returns True if a number is odd.
 
 
-#def isOdd(number):
-#    evenum=number-1
-#    checker=float(number)/2
-#    checker2=checker-0.5
-#    checker3=float(evenum)/2
-#    checker4=checker2-checker3
-#    if checker4==0:
-#        return True
-#    else:
-#        return False
+def isOdd(number):
+    if (number/2)-(number-1)/2==0:
+        return True
+    else:
+        return False
 
 
 
